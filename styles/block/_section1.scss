@@ -1,0 +1,89 @@
+
+.block{
+    display: flex;
+    width: 400px;
+    list-style: none;
+    text-align: center;
+    justify-content:flex-start;
+    flex-direction:column;
+    margin: 10px;
+    padding: 10px;
+        
+}
+.block__group{
+    display: flex;
+    margin:10px;
+    padding: 10px;
+}
+.decoration {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+
+.decoration img{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+}
+
+.brand {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin: 20spx;
+    font-size:15px;
+    justify-content: space-between;
+    text-decoration: none;
+    
+}
+
+.brand__item img {
+    width: 120px;
+    margin:0 10px;
+    text-align: center;
+}
+
+.btn {
+    display:flex;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+   
+}
+.btn__group{
+    display:flex;
+    margin-top: 50px;
+    list-style: none;
+
+}
+.btn__group a{
+    display: inline-flex;
+    text-decoration: none;
+}
+.btn--outline {
+    display:flex;
+    border:solid 1px rgb(88, 16, 88);
+    color:rgb(80, 8, 80);
+    border-radius: 5px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.btn--violet {
+    
+     background-color: #611f69 ;
+     border: 5px;
+     color: white ;
+     margin: 15px;
+     padding: 10px 50px;
+     text-decoration: none;
+}
+.btn--blue{
+    display: block;
+    background-color: blue;
+    color:white;
+    margin: 30px;
+    padding: 10px 50px;
+}
